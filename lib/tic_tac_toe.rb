@@ -60,6 +60,7 @@ class TicTacToe
   end
   
   def turn_count
-    
+    count = @board.map {|i| i == "X" || i == "O"}
+    count.length
   end
 end
