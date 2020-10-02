@@ -69,10 +69,10 @@ class TicTacToe
   end
   
   def won?
-    WIN_COMBINATIONS.each do |win_array|
-      pos1 = win_array[0]
-      pos2 = win_array[1]
-      pos3 = win_array[2]
+    WIN_COMBINATIONS.each do |win_arrays|
+      pos1 = win_arrays[0]
+      pos2 = win_arrays[1]
+      pos3 = win_arrays[2]
       if @board[pos1] == "X" &&
     end
   end
