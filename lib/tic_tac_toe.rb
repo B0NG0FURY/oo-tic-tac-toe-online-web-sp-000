@@ -47,7 +47,7 @@ class TicTacToe
     end
   end
   
-  def turn_counts
-    
+  def turn
+    puts ""
   end
 end
