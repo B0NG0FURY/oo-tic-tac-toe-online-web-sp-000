@@ -48,6 +48,7 @@ class TicTacToe
   end
   
   def turn
-    puts ""
+    puts "Make your move to an open position between 1-9"
+    input = 
   end
 end
