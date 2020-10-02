@@ -63,4 +63,8 @@ class TicTacToe
     count = @board.select {|i| i == "X" || i == "O"}
     count.length
   end
+  
+  def current_player
+    turn_count % 2 == 0? "X" : "O"
+  end
 end
