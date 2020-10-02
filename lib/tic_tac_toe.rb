@@ -109,5 +109,6 @@ class TicTacToe
       winner = won?
       win_index = winner[0]
       @board[win_index]
+    end
   end
 end
