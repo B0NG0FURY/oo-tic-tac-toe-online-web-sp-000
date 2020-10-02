@@ -111,4 +111,9 @@ class TicTacToe
       @board[win_index]
     end
   end
+  
+  def play
+    while !over? 
+      turn
+  end
 end
