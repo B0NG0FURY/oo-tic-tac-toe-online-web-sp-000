@@ -14,4 +14,8 @@ class TicTacToe
       [0, 4, 8], #First Diagonal
       [2, 4, 6]  #Second Diagonal
     ]
+  
+  def display_board
+    puts 
+  end
 end
