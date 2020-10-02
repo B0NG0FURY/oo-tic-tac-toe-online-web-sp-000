@@ -67,4 +67,10 @@ class TicTacToe
   def current_player
     turn_count % 2 == 0? "X" : "O"
   end
+  
+  def won?
+    @board.each do |index|
+      true if 
+    end
+  end
 end
