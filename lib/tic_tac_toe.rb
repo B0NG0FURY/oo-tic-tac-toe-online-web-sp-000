@@ -40,6 +40,6 @@ class TicTacToe
   end
   
   def valid_move?(index)
-    if index.between?(0, )
+    if index.between?(0, 8)
   end
 end
