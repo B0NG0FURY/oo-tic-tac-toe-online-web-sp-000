@@ -73,7 +73,7 @@ class TicTacToe
       pos1 = win_arrays[0]
       pos2 = win_arrays[1]
       pos3 = win_arrays[2]
-      if @board[pos1] == "X" &&
+      
     end
   end
 end
