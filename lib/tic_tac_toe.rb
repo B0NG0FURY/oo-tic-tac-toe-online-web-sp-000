@@ -74,6 +74,5 @@ class TicTacToe
       pos2 = win_arrays[1]
       pos3 = win_arrays[2]
       
-    end
   end
 end
